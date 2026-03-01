@@ -6,19 +6,16 @@
         .style1 {
             color: red;
         }
-
         .style2 {
             color: green;
             font-size: 16px;
             font-weight: bold;
-            font-family: Cambria;
+            font-family: 'Cambria';
         }
-
         .style3 {
-            color: black;
+            color:black;
             font-size: 14px;
         }
-
         .style4 {
             width: 250px;
             height: 250px;
@@ -32,12 +29,18 @@
 
     <hr>
 
-    <p class="style2"><b>Full name:</b> <span class="style3">Abdel hafedh Bribeche</span></p>
-    <p class="style2"><b>Age:</b> <span class="style3">21 years old</span></p>
-    <p class="style2"><b>Class:</b> <span class="style3">2<sup>nd</sup> LMD computer Science</span></p>
-    <p class="style2"><b>University:</b> <span class="style3">University of EL OUED</span></p>
-    
-    <img src="./photo.jpg" class="style4">
+    <div style="display: flex; align-items: flex-start;">
+
+        <div>
+            <p class="style2"><b>Full name:</b> <span class="style3">Abdel hafedh Bribeche</span></p>
+            <p class="style2"><b>Age:</b> <span class="style3">21 years old</span></p>
+            <p class="style2"><b>Class:</b> <span class="style3">2<sup>nd</sup> LMD computer Science</span></p>
+            <p class="style2"><b>University:</b> <span class="style3">University of EL OUED</span></p>
+        </div>
+
+        <img src="./photo.jpg" class="style4" style="margin-left: 50px;">
+
+    </div>
 
 </body>
 </html>
