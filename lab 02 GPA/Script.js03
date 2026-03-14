@@ -72,3 +72,15 @@ $(’#result ’).html(
 response.message +
 ’</div >’
 );  
+}
+},
+error: function () {
+$(’#result ’).html(
+’<div class =" alert alert -danger">’ +
+’Servererroroccurred.’ +
+’</div >’
+);
+}
+});
+});
+});
