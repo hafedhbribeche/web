@@ -53,8 +53,8 @@ $result = "No validcoursesentered.";
 <head >
 <metacharset="UTF -8">
 <title >GPA Calculator </title >
-<link rel="stylesheet" href="style.css">
-<script src="script.js" ></script >
+<link rel="stylesheet" href="style_step02.css">
+<script src="script_step02.js" ></script >
 </head >
 <body >
 <h1 >GPA Calculator </h1 >
