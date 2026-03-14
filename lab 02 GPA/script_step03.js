@@ -44,7 +44,7 @@ return;
 }
 
   $.ajax ({
-url: ’calculate.php’,
+url: ’calculate_step03.php’,
 type: ’POST ’,
 data: $(this).serialize (),
 dataType: ’json ’,
